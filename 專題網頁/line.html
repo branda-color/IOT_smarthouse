@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>line設定教學</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark  fixed-top">
+        <a class="navbar-brand" href="./main.html">Smart House</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="intro.html">功能簡介</a>
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link" href="./pi3intro.html">感測器介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./line.html">line通知設定</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- top house -->
+    <div class="house">
+        <img class="logo" src="./img/PNG2/logo200.png">
+        <div><img class="word" src="./img/logos.png"></div>
+        <div class="slogan">
+            <h2>居家安全的隱形幫手</h2>
+            <p>廚房防火、水塔水位監測、戶外空氣品質、酒精探測</p>
+        </div>
+    </div>
+
+    <!-- top house end -->
+
+    <!-- set line -->
+    <div class="container">
+        <h1 class="discript">設定Smart House Line警示系統</h1>
+        <h3 class="discript">本文將說明如何設定Line綁定Smart House 煙霧偵測警示</h3>
+        <br>
+        <div class="discript">如果您尚未擁有Line帳號，請參考<a class="herf"
+                href="https://line.me/zh-hant/account">Line官方教學</a>，申請新的帳號</div>
+        <div class="discript">若確認擁有Line帳號，那!我們就開始設定吧!</div>
+        <hr>
+        <div class="step">
+            <div class="flex">
+                <div class="number">1</div>
+                <div class="content">
+                    <h2>用自己的Line帳號登入 <a class="herf" href="https://notify-bot.line.me/zh_TW/">Line Notify 頁面</a></h2>
+                    <p>進入頁面，先點選右上角的登入，輸入帳號及密碼</p>
+                    <img class="line1 lineimg" src="./img/line/line1.jpg" alt="登入畫面">
+                    <p class="lineword">登入後，進入右上角點選管理登入服務</p>
+                    <img class="line1 lineimg" src="./img/line/line2.jpg" alt="選擇服務">
+                    <p class="lineword">進入管理登入服務頁面後，選擇登入服務</p>
+                    <img class="line1 lineimg" src="./img/line/line3.jpg" alt="管理登入服務">
+                </div>
+            </div>
+            <hr class="linehr">
+            <div class="flex">
+                <div class="number">2</div>
+                <div class="content">
+                    <h2>進入登入服務介面</h2>
+                    <p>進入頁面，請依照下圖方式進行填寫<br>1.服務圖片可任意進行更換<br>2.所在國家/地區請填寫您的所在地區<br>填寫完成請點選同意並前往下一步</p>
+                    <img class="line2 lineimg" src="./img/line/line4.jpg" alt="填寫資料">
+                    <p class="lineword">按下下一步您將會進入以下畫面，請確認資料無誤後按下登入</p>
+                    <img class="lineimg" src="./img/line/line5.jpg" alt="管理登入服務">
+
+                </div>
+            </div>
+            <hr class="linehr">
+            <div class="flex">
+                <div class="number">3</div>
+                <div class="content">
+                    <h2>收取Line系統通知確認信</h2>
+                    <p>按下登入跳轉頁面如下<br>這時請進到您剛才所填寫的email內收取認證通知信</p>
+                    <img class="lineimg" src="./img/line/line6.jpg" alt="填寫資料">
+                    <p class="lineword">通知信樣式如下，請按下連結進行確認</p>
+                    <img class="lineimg" src="./img/line/line7.jpg" alt="管理登入服務">
+                    <p class="lineword">按下網址後跳轉頁面如下，表示認證完成</p>
+                    <img class="lineimg" src="./img/line/line8.jpg" alt="管理登入服務">
+                </div>
+            </div>
+            <hr class="linehr">
+            <div class="flex">
+                <div class="number">4</div>
+                <div class="content">
+                    <h2>加入Line Notify 為好友</h2>
+                    <p>請掃取以下QR code 加入Line Notify為好友或搜尋Line Notify加入為好友</p>
+                    <img class="lineimg" src="./img/line/line9.jpg" alt="QRcode">
+                    <p class="lineword">將Line Notify加入為好友</p>
+                    <img class="lineimg" src="./img/line/line10.jpg" alt="好友頁面">
+                </div>
+            </div>
+            <hr class="linehr">
+            <div class="flex">
+                <div class="number">5</div>
+                <div class="content">
+                    <h2>再次進入Line Notify電腦版頁面 </h2>
+                    <p>點選右上角個人頁面進入</p>
+                    <img class="lineimg" src="./img/line/line11.jpg" alt="個人頁面">
+                    <p class="lineword">畫面向下滑動並按下發行存取權杖</p>
+                    <img class="lineimg" src="./img/line/line12.jpg" alt="存取權杖">
+                    <p class="lineword">填寫通知名稱(Smart House火災警訊通知)<br>選擇透過一對一聊天接收 Line Notify通知並按下發行</p>
+                    <img class="lineimg" src="./img/line/line13.jpg" alt="存取權杖">
+                    <p class="lineword">按下結果如下，請記住權杖亂碼並複製下來</p>
+                    <img class="lineimg" src="./img/line/line14.jpg" alt="存取權杖">
+                </div>
+            </div>
+            <hr class="linehr">
+            <div class="flex">
+                <div class="number1">6</div>
+                <div class="content">
+                    <h2>進入raspberry pi桌面</h2>
+                    <p>點選line.py檔案<br>將剛才複製下的權杖貼上如下，並儲存按下退出<br>再將raspberry pi關機，重新啟動後即完成設定</p>
+                    <img class="lineimg" src="./img/line/line15.jpg" alt="lineapi">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- set line end -->
+
+
+
+
+
+    <!-- footer -->
+    <footer id="footer-container">
+
+        <div class=" last">
+            <div>© 2020 SMART HOUSE . All Rights Reserved.</div>
+        </div>
+
+    </footer>
+    <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery.js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <!-- popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <!-- bootstrap.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

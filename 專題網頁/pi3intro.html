@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart House 感測器介紹</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/pi3intro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/card.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-sm navbar-dark  fixed-top">
+        <a class="navbar-brand" href="./main.html">Smart House</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="intro.html">功能簡介</a>
+                </li>
+                <li class="nav-item">
+
+                    <a class="nav-link" href="./pi3intro.html">感測器介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./line.html">line通知設定</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- top house -->
+    <div class="house">
+        <img class="logo" src="./img/PNG2/logo200.png">
+        <div><img class="word" src="./img/logos.png"></div>
+        <div class="slogan">
+            <h2>居家安全的隱形幫手</h2>
+            <p>廚房防火、水塔水位監測、戶外空氣品質、酒精探測</p>
+        </div>
+    </div>
+
+    <!-- top house end -->
+
+    <!-- pi3table -->
+
+    <div>&nbsp;&nbsp;</div>
+
+    <div>
+        <div class="topintro">
+            技術搭配
+        </div>
+        <p></p>
+        <div class="topintro">
+            <h1>PI3搭配防火設施</h1>
+        </div>
+        <div>&nbsp;&nbsp;</div>
+        <div class="body">
+            <div class="pi3flex">
+
+                <img class="pi3png" src="./img/pi3/pi3.png" alt="pi3樣板">
+
+                <div class="text-center pi3intro ">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img class="fire1" src="./img/pi3/fire.png" alt="廚房防火監測">
+                            </div>
+                            <div class="flip-card-back" id="icon1">
+                                <p>
+                                <h1>防火監測</h1><br>
+                                煙霧偵測及即時影像監控<br>
+                                <p></p>
+                                <div class="change">click me</div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 98%;">
+        <div class="topintro">
+            <h1>Node MCU搭配水塔、空氣品質、酒精監測</h1>
+        </div>
+        <div>&nbsp;&nbsp;</div>
+        <div class="nodebody">
+            <div class="nodeinside">
+                <div class="nodeflex">
+                    <div class="text-center  pi3intro ">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="pm25img" src="./img/pi3/pm2.5.png" alt="戶外監測">
+                                </div>
+                                <div class="flip-card-back" id="icon2">
+                                    <p>
+                                    <h1>空氣品質</h1><br>
+                                    即時監測戶外溫度及空氣狀況<br>
+                                    <p></p>
+                                    <div class="change">click me</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center  pi3intro">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="alcoholimg" src="./img/pi3/alcohol.png" alt="酒精監測">
+                                </div>
+                                <div class="flip-card-back" id="icon3">
+                                    <p>
+                                    <h1>酒精監測</h1><br>
+                                    手持式方便監測酒精濃度<br>
+                                    <p></p>
+                                    <div class="change">click me</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center  pi3intro ">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img class="waterimg" src="./img/pi3/watertemp.png" alt="水溫監測">
+                                </div>
+                                <div class="flip-card-back" id="icon4">
+                                    <p>
+                                    <h1>水塔監測</h1><br>
+                                    即時探測水位及馬達開關狀態<br>
+                                    <p></p>
+                                    <div class="change">click me</div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="nodeMCUimg" src="./img/pi3/nodeMCu.png" alt="nodeMCU">
+
+            </div>
+        </div>
+    </div>
+
+    <div>&nbsp;&nbsp;</div>
+
+
+
+
+
+    <!-- pi3table end -->
+
+    <!-- popcardintro -->
+    <div class="motai" id="introcard1">
+        <div class="moimg">
+            <div class="card">
+                <div class="card-header">廚房防火監測
+                    <span class="close" id="close1">×</span>
+                </div>
+                <hr class="neohr">
+                <div class="card-body">
+                    <div class="card-body centerp">
+                        <img class="picture" src="./img/OKPNG/main/kitchen.jpg" alt="">
+                    </div>
+                    <h5 class="card-title">Smart House 廚房防火監測</h5>
+                    <p class="card-text">使用的感測器技術如上，由左至右為Camera v2.1、Buzzer、MQ2，請將本產品放置於廚房或想感測煙霧火災的區域中。<br>
+                    <ul>
+                        <li>Camera v2.1將為您提供最即時的影像。</li>
+                        <li>Buzzer將在火災發生時發出警示聲響。</li>
+                        <li>MQ2將會為您檢測是否有煙霧情況。</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- introcard1 end -->
+
+    <div class="motai" id="introcard2">
+
+        <div class="moimg">
+            <div class="card ">
+                <div class="card-header">空氣品質監測
+                    <span class="close" id="close2">×</span>
+                </div>
+                <hr class="neohr">
+                <div class="card-body">
+                    <div class="card-body centerp">
+                        <img class="picture" src="./img/OKPNG/main/outside.jpg" alt="">
+                    </div>
+                    <h5 class="card-title">Smart House 空氣品質監測</h5>
+                    <p class="card-text">使用的感測器技術如上，由左至右為BME280、PM 2.5 G3 ，請將本產品放置於戶外或想感測空氣品質的區域中。<br>
+                    <ul>
+                        <li>BME280將為您提供溫度狀況。</li>
+                        <li>PM 2.5 G3將為您提供PM2.5空氣品質狀況。</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- introcard2 end -->
+
+    <div class="motai" id="introcard3">
+
+        <div class="moimg">
+            <div class="card ">
+                <div class="card-header">手持式酒精探測
+                    <span class="close" id="close3">×</span>
+                </div>
+                <hr class="neohr">
+                <div class="card-body">
+                    <div class="card-body centerp">
+                        <img class="picture" src="./img/OKPNG/main/alchole.jpg" alt="">
+                    </div>
+                    <h5 class="card-title">Smart House 手持式酒精探測</h5>
+                    <p class="card-text">使用的感測器技術如上圖為MQ3，本產品可隨手取用，不受空間限制。<br>
+                    <ul>
+                        <li>MQ3將為您提供酒精濃度測試。</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- introcard3 end -->
+
+
+
+    <div class="motai" id="introcard4">
+
+        <div class="moimg">
+            <div class="card ">
+                <div class="card-header">水塔水位監測
+                    <span class="close" id="close4">×</span>
+                </div>
+                <hr class="neohr">
+                <div class="card-body">
+                    <div class="card-body centerp">
+                        <img class="picture" src="./img/OKPNG/main/water.jpg" alt="">
+                    </div>
+                    <h5 class="card-title">Smart House 水塔水位監測</h5>
+                    <p class="card-text">使用的感測器技術如上，由左至右為 5V Pump 、AJ-SR04M、DS18B20，請將本產品放置於水塔內，或水容器內以利觀測。<br>
+                    <ul>
+                        <li>5V Pump為幫浦馬達，可於水量不足時開啟抽水。</li>
+                        <li>AJ-SR04M將檢測水位高度，以利決策是否開啟馬達。</li>
+                        <li>DS18B20將會為您提供水塔溫度狀況，是否有異常狀況。</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- introcard4 end -->
+
+
+
+
+
+
+    <!-- popcardintro  end -->
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer id="footer-container">
+
+        <div class=" last">
+            <div>© 2020 SMART HOUSE . All Rights Reserved.</div>
+        </div>
+
+    </footer>
+    <!-- footer end -->
+
+
+
+
+
+    <!-- jquery.js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <!-- popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <!-- bootstrap.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <script src="./js/pi3intro.js"></script>
+
+</body>
+
+</html>

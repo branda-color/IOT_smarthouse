@@ -1,0 +1,41 @@
+.card{
+    border: 3px solid rgb(128,255,0,0.8);
+    box-shadow: 0 0 15px -1px rgb(128,255,0), 
+    0 0 12px -1px rgb(128,255,0) inset;
+    background-color: black;
+    color:#fff;
+
+    text-shadow:
+    0 0 5px rgba(1,253,179, 1),
+    0 0 10px rgba(1,253,179, 1),
+    0 0 20px rgba(1,253,179, 1),
+    0 0 40px rgba(1,253,179, 1);
+}
+
+
+.card-header{
+    font-size: 30px;
+}
+
+.neohr{
+    background-color:rgb(128,255,0);
+    border:0;
+    height: 3px;
+    box-shadow:
+    0 0 5px rgba(128,255,0, 1),
+    0 0 10px rgba(128,255,0, 1),
+    0 0 20px rgba(128,255,0, 1),
+    0 0 30px rgba(128,255,0, 1);
+}
+
+.close{
+    color:#fff;
+    text-shadow:
+    0 0 5px rgba(252,243,64, 1),
+    0 0 10px rgba(252,243,64, 1),
+    0 0 20px rgba(252,243,64, 1),
+    0 0 40px rgba(252,243,64, 1);
+
+
+
+}
